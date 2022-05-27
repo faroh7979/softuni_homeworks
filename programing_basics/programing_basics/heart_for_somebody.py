@@ -1,0 +1,19 @@
+the_key = input('Please type me your name! ')
+
+if the_key == 'Cwettty' or the_key == 'Tsvetelina':
+    from turtle import *
+    color("black", "red")
+    begin_fill()
+
+    left(50)
+    forward(100)
+    circle(40, 180)
+    left(260)
+    circle(40, 180)
+    forward(100)
+
+    end_fill()
+
+    done()
+else:
+    print('Sorry you are not the chosen one!')
